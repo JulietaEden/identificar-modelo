@@ -20,7 +20,7 @@ function take_snapshot()
   
   // Inicializa el método de clasificación de imagen con MobileNet
 //classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/JACkTMciY/model.json',modelLoaded);
-classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/CtK0TRNHx/',modelLoaded);
+classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/CtK0TRNHx/model.json',modelLoaded);
 
   // Cuando se cargue el modelo
   function modelLoaded() {
